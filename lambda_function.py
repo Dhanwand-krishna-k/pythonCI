@@ -8,7 +8,7 @@ def lambda_handler(event, context):
         
         "statusCode": 200,
         "body": {
-            "message":"version 8",
+            "message":"version 9",
             "type":"pipeline"
         },
         
