@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     
     return {
         
-        "statusCode": 201,
+        "statusCode": 200,
         "body": {
             "message":"version 4",
             "type":"test2"
