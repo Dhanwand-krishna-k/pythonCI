@@ -1,5 +1,5 @@
 import json
-import app  # Assuming your Lambda code is in app.py
+import lambda_function  # Assuming your Lambda code is in app.py
 
 def test_lambda_handler_success():
     # 1. Arrange: Create a fake event and context
