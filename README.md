@@ -1,1 +1,1 @@
-lambda func
+lambda function
