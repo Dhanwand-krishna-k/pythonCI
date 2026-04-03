@@ -28,6 +28,8 @@ phases:
       - echo "Creating deployment package..."
     
 
-artifacts:
-  files:
-    - **
+files:
+    - lambda_function.py
+    - '**/*.py'
+    - '**/*.so'
+    - '**/*.txt'
