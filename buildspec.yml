@@ -21,11 +21,9 @@ phases:
   post_build:
     commands:
       - echo "Tests passed! Packaging Lambda function..."
-      - echo "Installing production dependencies..."
       - pip install -r requirements.txt -t ./package/
-      - echo "Copying source code..."
-      - cp *.py ./package/
-      - echo "Creating deployment package..."
+     
+      - echo "uploading output artifacts"
     
 
 files:
