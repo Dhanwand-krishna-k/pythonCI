@@ -26,8 +26,8 @@ phases:
       - echo "Copying source code..."
       - cp *.py ./package/
       - echo "Creating deployment package..."
-      - cd package && zip -r ../deployment_package.zip . && cd ..
+    
 
 artifacts:
   files:
-    - deployment_package.zip
+    - **
